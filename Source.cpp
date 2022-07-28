@@ -11,6 +11,13 @@
 
 #include <btBulletDynamicsCommon.h>
 
+/// <summary>
+/// Testing how to use OpenGL for game development.
+/// Created by following "C++ Game Development By Example" chapters 6-8 by Siddharth Shekar.
+/// Changes include fixing many parts of the original code that were unimplemented in order to
+/// allow it to build, changing textures, and adding a background.
+/// </summary>
+
 Camera* camera;
 LightRenderer* light;
 MeshRenderer* sphere;
